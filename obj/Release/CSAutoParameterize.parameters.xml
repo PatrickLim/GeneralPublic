@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="conn-Web.config Connection String" description="conn Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:ubsdb9qjej.database.windows.net,1433;Database=Pavilion;User ID=plim@ubsdb9qjej;Password=p@v1l10n;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="J:\\Projects\\GeneralPublic\\GeneralPublic\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='conn']/@connectionString" />
+  </parameter>
+  <parameter name="pdci-Web.config Connection String" description="pdci Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:ubsdb9qjej.database.windows.net,1433;Database=PavilionMembership;User ID=plim@ubsdb9qjej;Password=p@v1l10n;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="J:\\Projects\\GeneralPublic\\GeneralPublic\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='pdci']/@connectionString" />
+  </parameter>
+</parameters>

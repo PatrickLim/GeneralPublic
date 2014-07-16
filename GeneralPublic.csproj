@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{98FEF4FA-1153-48D8-AB0D-1437E921CBD1}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneralPublic</RootNamespace>
+    <AssemblyName>GeneralPublic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\ProductsApp\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting">
+      <HintPath>..\..\ProductsApp\packages\Microsoft.AspNet.WebApi.Client.5.0.0\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http">
+      <HintPath>..\..\ProductsApp\packages\Microsoft.AspNet.WebApi.Core.5.0.0\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost">
+      <HintPath>..\..\ProductsApp\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="MemberAccount.aspx" />
+    <Content Include="MemberAccount.html" />
+    <Content Include="Pages\about-usCopy.html" />
+    <Content Include="Pages\business-opportunityCopy.html" />
+    <Content Include="Pages\cafe-pavilionCopy.html" />
+    <Content Include="Pages\faqsCopy.html" />
+    <Content Include="Pages\health-maintenance-programCopy.html" />
+    <Content Include="Pages\images\background.png" />
+    <Content Include="Pages\images\contact-background-home.png" />
+    <Content Include="Pages\images\content.png" />
+    <Content Include="Pages\images\credit_card_logos_10.gif" />
+    <Content Include="Pages\images\follow-us.jpg" />
+    <Content Include="Pages\images\footer.png" />
+    <Content Include="Pages\images\green-background-box.jpg" />
+    <Content Include="Pages\images\green-read-more-button.jpg" />
+    <Content Include="Pages\images\green-watch-video-button.jpg" />
+    <Content Include="Pages\images\header.png" />
+    <Content Include="Pages\images\health-home-image.jpg" />
+    <Content Include="Pages\images\home-box-right-side.jpg" />
+    <Content Include="Pages\images\learn-more-button.jpg" />
+    <Content Include="Pages\images\link-bar.png" />
+    <Content Include="Pages\images\link-rollover.jpg" />
+    <Content Include="Pages\images\login-button.jpg" />
+    <Content Include="Pages\images\logo.png" />
+    <Content Include="Pages\images\member-benefits-button.jpg" />
+    <Content Include="Pages\images\orange-background-box.jpg" />
+    <Content Include="Pages\images\orange-read-more-button.jpg" />
+    <Content Include="Pages\images\orange-watch-video-button.jpg" />
+    <Content Include="Pages\images\scroll-bar.png" />
+    <Content Include="Pages\images\signup-button.jpg" />
+    <Content Include="Pages\images\sm-pavilion-image.jpg" />
+    <Content Include="Pages\images\sm-pavilion-image.png" />
+    <Content Include="Pages\images\sm-restaurant-image.jpg" />
+    <Content Include="Pages\images\sm-vending-machine-image.png" />
+    <Content Include="Pages\images\textbox.jpg" />
+    <Content Include="Pages\images\top-border.png" />
+    <Content Include="Pages\images\weight-loss-home-image.jpg" />
+    <Content Include="Pages\js\imageSwap.js" />
+    <Content Include="Pages\js\jquery.validate.js" />
+    <Content Include="Pages\js\jquery.validation.functions.js" />
+    <Content Include="Pages\js\moodalbox2.js" />
+    <Content Include="Pages\js\moodalPage.js" />
+    <Content Include="Pages\js\moodalPics2.js" />
+    <Content Include="Pages\js\mootools-1.2.3-core-yc.js" />
+    <Content Include="Pages\new-member-enrollmentCopy.html" />
+    <Content Include="Pages\newsCopy.html" />
+    <Content Include="Pages\pavilionsCopy.html" />
+    <Content Include="Pages\preview.html" />
+    <Content Include="Pages\productsCopy.html" />
+    <Content Include="Pages\styles\jquery.validate.css" />
+    <Content Include="Pages\styles\moodalbox.css" />
+    <Content Include="Pages\styles\navigation.css" />
+    <Content Include="Pages\styles\nutrition.css" />
+    <Content Include="Pages\vending-machinesCopy.html" />
+    <Content Include="Pages\weight-loss-guidance-programCopy.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\bootstrap.min.css" />
+    <Content Include="Styles\images\background.png" />
+    <Content Include="Styles\images\credit_card_logos_10.gif" />
+    <Content Include="Styles\images\loading.gif" />
+    <Content Include="Styles\images\top-border.png" />
+    <Content Include="Styles\memberaccount.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\MemberController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MemberAccount.aspx.cs">
+      <DependentUpon>MemberAccount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MemberAccount.aspx.designer.cs">
+      <DependentUpon>MemberAccount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Properties\PublishProfiles\pavgenpub.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\ProductsApp\classes\platform.csproj">
+      <Project>{6350cc2b-9d5c-4a99-be20-c2ab561d1806}</Project>
+      <Name>platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProductsApp\PDCI\PDCI.csproj">
+      <Project>{7ddcf75d-5c52-48dc-b38a-8f32d4621b69}</Project>
+      <Name>PDCI</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\ProductsApp\PTC\PTC.csproj">
+      <Project>{6e438638-df2d-412a-8f20-b62e333614c1}</Project>
+      <Name>PTC</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49219</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49219/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
